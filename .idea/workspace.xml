@@ -1,7 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d8b8fa-080c-4da7-836f-b8316732f884" name="Default" comment="" />
+    <list default="true" id="99d8b8fa-080c-4da7-836f-b8316732f884" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Attribute/AttributeAware.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Attribute/AttributeBag.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Attribute/AttributeBagContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Attribute/AttributeBagNamespaced.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Attribute/AttributeBagReference.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Edge/Base.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Edge/Directed.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Edge/Undirected.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Exception/BadMethodCallException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Exception/DomainException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Exception/InvalidArgumentException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Exception/LogicException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Exception/NegativeCycleException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Exception/OutOfBoundsException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Exception/OverflowException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Exception/RangeException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Exception/RuntimeException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Exception/UnderflowException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Exception/UnexpectedValueException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Exporter/ExporterInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Graph.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Set/DualAggregate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Set/Edges.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Set/EdgesAggregate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Set/Vertices.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Set/VerticesAggregate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Set/VerticesMap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Vertex.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/src/Walk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/Attribute/AbstractAttributeAwareTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/Attribute/AttributeBagContainerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/Attribute/AttributeBagNamespacedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/Attribute/AttributeBagReferenceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/Edge/EdgeAttributesTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/Edge/EdgeBaseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/Edge/EdgeDirectedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/Edge/EdgeUndirectedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/Exception/NegativeCycleExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/GraphTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/Set/BaseVerticesTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/Set/EdgesTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/Set/VerticesMapTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/Set/VerticesTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/VertexTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/WalkTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/clue/graph/tests/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/composer/ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/composer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/composer/autoload_classmap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/composer/autoload_namespaces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/composer/autoload_psr4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/composer/autoload_real.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/composer/autoload_static.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/vendor/composer/installed.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Codewars.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -35,7 +100,7 @@
       <file leaf-file-name="GraphStringSolver.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/GraphStringSolver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2098">
+            <state relative-caret-position="288">
               <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding />
             </state>
@@ -85,7 +150,7 @@
       <file leaf-file-name="LinkedList.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/LinkedList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="1080">
               <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
               <folding />
             </state>
@@ -115,7 +180,7 @@
       <file leaf-file-name="FluentCalculator.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/FluentCalculator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1016">
+            <state relative-caret-position="1800">
               <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding />
             </state>
@@ -123,6 +188,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -161,7 +229,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="596" />
-    <option name="y" value="52" />
+    <option name="y" value="80" />
     <option name="width" value="1964" />
     <option name="height" value="1205" />
   </component>
@@ -190,42 +258,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Jobber" />
+              <option name="myItemId" value="code-practice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Jobber" />
+              <option name="myItemId" value="code-practice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Jobber" />
+              <option name="myItemId" value="code-practice" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Jobber" />
+              <option name="myItemId" value="code-practice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Jobber" />
+              <option name="myItemId" value="code-practice" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Fib" />
+              <option name="myItemId" value="php" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,17 +350,18 @@
       <workItem from="1498256419087" duration="9994000" />
       <workItem from="1499831293165" duration="2918000" />
       <workItem from="1499907301452" duration="17395000" />
+      <workItem from="1501097483066" duration="86000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55381000" />
+    <option name="totallyTimeSpent" value="55467000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="596" y="52" width="1964" height="1205" extended-state="0" />
-    <editor active="true" />
+    <frame x="596" y="80" width="1964" height="1205" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27580813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2789364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298893" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -329,11 +398,90 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LinkedList/Node.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/GraphStringSolver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XO/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fib/Main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringUnique/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URLify/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/LinkedList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermutationCheck/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comma/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/FluentCalculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/Main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -365,7 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -381,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1458">
           <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -403,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -448,7 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -464,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -472,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="72" column="3" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -480,23 +622,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="516" column="9" selection-start-line="516" selection-start-column="9" selection-end-line="516" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URLify.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/URLify.php" />
     <entry file="file://$PROJECT_DIR$/LinkedList/Main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -510,7 +643,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/FluentCalculator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1016">
+        <state relative-caret-position="1800">
           <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding />
         </state>
@@ -526,7 +659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/LinkedList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="1080">
           <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
           <folding />
         </state>
@@ -542,7 +675,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/GraphStringSolver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2098">
+        <state relative-caret-position="288">
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding />
         </state>
