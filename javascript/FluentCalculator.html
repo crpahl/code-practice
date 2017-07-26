@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+<script>
+    Operators = {
+        '+': function(x, y) { return x + y },
+        '-': function(x, y) { return x - y },
+        '*': function(x, y) { return x * y },
+        '/': function(x, y) { return x / y }
+    };
+
+    Calc = {
+        inputs: [],
+
+        get new() {
+            this.inputs = [];
+            return this;
+        },
+
+        get one() {
+            return this.calculate((1));
+        },
+
+        get two() {
+            return this.calculate((2));
+        },
+
+        get three() {
+            return this.calculate((3));
+        },
+
+        get four() {
+            return this.calculate((4));
+        },
+
+        get five() {
+            return this.calculate((5));
+        },
+
+        get six() {
+            return this.calculate((6));
+        },
+
+        get seven() {
+            return this.calculate((7));
+        },
+
+        get eight() {
+            return this.calculate((8));
+        },
+
+        get nine() {
+            return this.calculate((9));
+        },
+
+        get plus() {
+            return this.calculate(('+'));
+        },
+
+        get minus() {
+            return this.calculate(('-'));
+        },
+
+        get times() {
+            return this.calculate(('*'));
+        },
+
+        get divided_by() {
+            return this.calculate(('/'));
+        },
+
+        calculate: function(input) {
+            this.inputs.push(input);
+
+            if (this.inputsSet()) {
+              return Operators[this.inputs[1]](this.inputs[0], this.inputs[2]);
+            }
+
+            return this;
+        },
+
+        inputsSet: function() {
+            if (this.inputs.length !== 3) {
+                return false;
+            }
+
+            let input1Valid = this.validNumber(this.inputs[0]);
+            let input2Valid = Operators.hasOwnProperty(this.inputs[1]);
+            let input3Valid = this.validNumber(this.inputs[2]);
+
+            return input1Valid && input2Valid && input3Valid;
+        },
+
+        validNumber: function(number) {
+            return Number.isInteger(number) && number >= 0 && number <= 9;
+        }
+    };
+
+    // -------------------------------------------
+    // Display Results
+    // -------------------------------------------
+
+    function printFluentAnswer(calculation, answer) {
+        var node = document.createTextNode(calculation + ' = ' + answer);
+        document.getElementById('fluent-answers').appendChild(node);
+        document.getElementById('fluent-answers').appendChild(document.createElement('br'));
+    }
+
+    window.onload = function() {
+        printFluentAnswer('Calc.new.one.plus.two', Calc.new.one.plus.two);
+        printFluentAnswer('Calc.new.five.minus.six', Calc.new.five.minus.six);
+        printFluentAnswer('Calc.new.seven.times.two', Calc.new.seven.times.two);
+        printFluentAnswer('Calc.new.nine.divided_by.three', Calc.new.nine.divided_by.three);
+    };
+</script>
+</head>
+<body>
+    <h1> Fluent Calculator: </h1>
+    <hr/>
+    <div id="fluent-answers">
+    </div>
+</body>
